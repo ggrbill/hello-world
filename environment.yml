@@ -1,0 +1,7 @@
+name: hw_env
+channels:
+- defaults
+dependencies:
+- cmake=3.6.3=vc14_0
+- python=3.6.1=2
+- vs2015_runtime=14.0.25123=0
