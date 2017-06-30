@@ -12,10 +12,10 @@ $ cmake ../ [extra options]
 ```
 
 ## Runing HelloWorld_PY
-To run the Python version of HelloWorld it is necessary to create the `hw_env` environment and enter into HelloWorld_PY folder executing the following commands: (Inside of HelloWorld_PY folder has two PyDev project files.)
+To run the Python version of HelloWorld it is necessary to enter into HelloWorld_PY and create the `hw_env` environment folder executing the following commands: (Inside of HelloWorld_PY folder has two PyDev project files, if you prefer work with PyDev.)
 ```shell
+$ cd HelloWorld_PY
 $ conda env create
 $ activate hw_env
-$ cd HelloWorld_PY
 $ python HelloWorld.py
 ```
