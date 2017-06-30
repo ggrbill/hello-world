@@ -5,5 +5,5 @@ class Printer():
          
     def PrintHello( self ):
         for i in range( int( self._times ) ):
-            print (" Hello, ", self._who, " !!!")
-        print("\n")
+            print ("Hello, ", self._who, " !!!")
+        print("")
