@@ -13,8 +13,8 @@ int main()
 
 	printer.PrintNow();
 	
-	//cout << endl;
-	//cout << "#################\n";
-	//cout << "# Hello, world! #\n";
-	//cout << "#################\n";
+	cout << endl;
+	cout << "################\n";
+	cout << "# End of code! #\n";
+	cout << "################\n";
 }
