@@ -1,22 +1,36 @@
 # hello-world
-My first repository on GitHub
+Basic hello world project in _C++_ and _Python_
 
 This project is my first work/contribution into a GitHub repository in my own account.
 
+## Setup and activate the environment
+This project is based in a conda environment, for miniconda package installation follow the instructions [here](https://conda.io/miniconda.html).
+
+To create and activate the conda environment called `hw_env` execute the following commands into project root folder
+```shell
+$ conda env create
+$ [source] activate hw_env
+```
+The `source` command is necessary to use only in Unix based systems.
+
 ## Build HelloWorld in _C++_
-To build the C++ project enter into `HelloWorld_CPP` folder and execute the following commands:
+To build the C++ project enter into `HelloWorld_CPP` folder using:
+```shell
+$ cd HelloWorld_CPP
+```
+and execute the following commands:
 ```shell
 $ mkdir build
 $ cd build
 $ cmake ../ [extra options]
 ```
+Depending on the OS will be available a `MSVC` solution file (Windows) or a `Makefile` (Unix based).
 
 ## Runing HelloWorld in _Python_
-To run the Python version of _HelloWorld_ it is necessary to enter into `HelloWorld_PY` folder, create the `hw_env` environment and execute the `HelloWorld.py` file. The following commands make all those steps: (Inside of `HelloWorld_PY` folder also has two PyDev project files.)
+To run the Python version of _HelloWorld_ is necessary to enter into `HelloWorld_PY` folder and execute the `HelloWorld.py` file. The following commands make all those steps: 
 ```shell
 $ cd HelloWorld_PY
-$ conda env create
-$ [source] activate hw_env
 $ python HelloWorld.py
 ```
-The `source` command is necessary to use only in Linux Systems.
+Also, it is available  two _PyDev_ project files inside of `HelloWorld_PY` folder.
+
