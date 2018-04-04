@@ -26,7 +26,7 @@ $ cmake ../ [extra options]
 ```
 Depending on the OS will be available a `MSVC` solution file (Windows) or a `Makefile` (Unix based).
 
-## Runing HelloWorld in _Python_
+## Running HelloWorld in _Python_
 To run the Python version of _HelloWorld_ is necessary to enter into `HelloWorld_PY` folder and execute the `HelloWorld.py` file. The following commands make all those steps: 
 ```shell
 $ cd HelloWorld_PY
