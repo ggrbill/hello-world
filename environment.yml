@@ -1,6 +1,7 @@
 name: hw_env
 channels:
 - defaults
+- conda-forge
 dependencies:
 - python=3.6.1=2
 - invoke=0.22.1
