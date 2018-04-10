@@ -23,7 +23,8 @@ def build(ctx, cclean=False):
 	print("Building!")
 	commands = [
 		'mkdir build',
-        'cd build',
-        'cmake ..',
+		'cd build',
+		'cmake ..',
+		'cmake --build .',
     ]
 	ctx.run(' && '.join(commands))
