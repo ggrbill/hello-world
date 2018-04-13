@@ -11,7 +11,7 @@ To create and activate the conda environment called `hw_env` execute the followi
 $ conda env create
 $ [source] activate hw_env
 ```
-The `source` command is necessary to use only in Unix based systems.
+If you are in a Unix based systems you have to `[source]`.
 
 ## Build HelloWorld in _C++_
 To build the C++ project enter into `HelloWorld_CPP` folder using:
