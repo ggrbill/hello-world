@@ -26,5 +26,5 @@ def build(ctx, cclean=False):
 		'cd build',
 		'cmake ..',
 		'cmake --build .',
-    ]
+	]
 	ctx.run(' && '.join(commands))
