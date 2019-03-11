@@ -9,9 +9,8 @@ This project is based in a conda environment, for miniconda package installation
 To create and activate the conda environment called `hw_env` execute the following commands into project root folder
 ```shell
 $ conda env create
-$ [source] activate hw_env
+$ conda activate hw_env
 ```
-If you are in a Unix based systems you have to `[source]`.
 
 ## Build HelloWorld in _C++_
 To build the C++ project enter into `HelloWorld_CPP` folder using:
