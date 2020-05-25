@@ -8,9 +8,11 @@ This project is based in a conda environment, for miniconda package installation
 
 To create and activate the conda environment called `hw_env` execute the following commands into project root folder
 ```shell
-$ conda env create
+$ conda devenv
 $ conda activate hw_env
 ```
+The command `conda-devenv` must be installed to create/update the environment. Installation instructions can be found [here](https://conda-devenv.readthedocs.io/en/latest/installation.html).
+
 
 ## Build HelloWorld in _C++_
 To build the C++ project enter into `HelloWorld_CPP` folder using:
@@ -34,15 +36,9 @@ $ python HelloWorld.py
 Also, it is available  two _PyDev_ project files inside of `HelloWorld_PY` folder.
 
 ## Build HelloWorld in _Rust_
-To build the Rust project enter into `HelloWorld_Rust` folder using:
+To build/run the Rust project enter into `HelloWorld_Rust` folder using:
 ```shell
 $ cd HelloWorld_Rust
-```
-and execute the following command:
-```shell
 $ rustc main.rs
-```
-After that, to run the builded executable just execute the command:
-```shell
 $ ./main
 ```
