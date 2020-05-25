@@ -33,3 +33,16 @@ $ python HelloWorld.py
 ```
 Also, it is available  two _PyDev_ project files inside of `HelloWorld_PY` folder.
 
+## Build HelloWorld in _Rust_
+To build the Rust project enter into `HelloWorld_Rust` folder using:
+```shell
+$ cd HelloWorld_Rust
+```
+and execute the following command:
+```shell
+$ rustc main.rs
+```
+After that, to run the builded executable just execute the command:
+```shell
+$ ./main
+```

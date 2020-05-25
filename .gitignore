@@ -1,2 +1,5 @@
+environment.yml
+
 HelloWorld_CPP/build/
 HelloWorld_PY/__pycache__/
+HelloWorld_Rust/main
