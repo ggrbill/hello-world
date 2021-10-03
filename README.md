@@ -36,12 +36,25 @@ $ python HelloWorld.py
 Also, it is available  two _PyDev_ project files inside of `HelloWorld_PY` folder.
 
 ## Build HelloWorld in _Rust_
-To build/run the Rust project enter into `HelloWorld_Rust` folder using:
+To build the Rust project enter into `HelloWorld_Rust` folder using:
 ```shell
 $ cd HelloWorld_Rust
 ```
 And execute the following commands:
 ```shell
-$ rustc main.rs
-$ ./main
+$ mkdir build
+$ cd build
+$ rustc ../main.rs
+```
+
+## Build HelloWorld in _Fortran_
+To build the Rust project enter into `HelloWorld_Fortran` folder using:
+```shell
+$ cd HelloWorld_Fortran
+```
+And execute the following commands:
+```shell
+$ mkdir build
+$ cd build
+$ gfortran ../hello.f90
 ```
