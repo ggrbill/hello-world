@@ -13,7 +13,7 @@ def clean(ctx):
 		'cclean': "Call Clean task (Delete 'build' folder) before build again."
 	}
 )
-def build(ctx, cclean=False):
+def build_cpp(ctx, cclean=False):
 	"""
 	Build C++ code.
 	"""
@@ -26,5 +26,47 @@ def build(ctx, cclean=False):
 		'cd build',
 		'cmake ..',
 		'cmake --build .',
+	]
+	ctx.run(' && '.join(commands))
+
+
+@task(
+	help = {
+		'cclean': "Call Clean task (Delete 'build' folder) before build again."
+	}
+)
+def build_rust(ctx, cclean=False):
+	"""
+	Build Rust code.
+	"""
+	if cclean:
+		clean(ctx)
+
+	print("Building!")
+	commands = [
+		'mkdir build',
+		'cd build',
+		'rustc ../main.rs',
+	]
+	ctx.run(' && '.join(commands))
+
+
+@task(
+	help = {
+		'cclean': "Call Clean task (Delete 'build' folder) before build again."
+	}
+)
+def build_fortran(ctx, cclean=False):
+	"""
+	Build Rust code.
+	"""
+	if cclean:
+		clean(ctx)
+
+	print("Building!")
+	commands = [
+		'mkdir build',
+		'cd build',
+		'gfortran ../hello.f90 -o hello',
 	]
 	ctx.run(' && '.join(commands))
