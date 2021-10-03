@@ -6,8 +6,10 @@ program hello
   print *, 'Hello, World!'
   
   ! Executable statements
-  a = 12.0
-  b = 15.0
+  print *, 'Please enter the number A: '
+  read(*,*) a
+  print *, 'Please enter the number B: '
+  read(*,*) b
   result = a + b
-  print *, 'The total is ', result
+  print *, 'A + B is ', result
 end program hello
