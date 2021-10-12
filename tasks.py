@@ -58,7 +58,7 @@ def build_rust(ctx, cclean=False):
 )
 def build_fortran(ctx, cclean=False):
 	"""
-	Build Fortran90 code.
+	Build Fortran95 code.
 	"""
 	if cclean:
 		clean(ctx)
