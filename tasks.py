@@ -58,7 +58,7 @@ def build_rust(ctx, cclean=False):
 )
 def build_fortran(ctx, cclean=False):
 	"""
-	Build Rust code.
+	Build Fortran95 code.
 	"""
 	if cclean:
 		clean(ctx)
@@ -67,6 +67,6 @@ def build_fortran(ctx, cclean=False):
 	commands = [
 		'mkdir build',
 		'cd build',
-		'gfortran ../hello.f90 -o hello',
+		'f95 ../hello.f95 -o hello',
 	]
 	ctx.run(' && '.join(commands))
