@@ -56,5 +56,10 @@ And execute the following commands:
 ```shell
 $ mkdir build
 $ cd build
-$ gfortran ../hello.f90
+$ gfortran ../hello.f95
+```
+also can compile the Fortran code using:
+
+```shell
+$ f95 ../hello.f95
 ```
