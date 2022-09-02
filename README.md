@@ -1,5 +1,5 @@
 # hello-world
-Basic hello world project in _C++_ and _Python_
+Basic hello world project in _C++_, _Python_, _Rust_ and _FORTRAN_
 
 This project is my first work/contribution into a GitHub repository in my own account.
 
