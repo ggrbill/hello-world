@@ -47,8 +47,8 @@ $ cd build
 $ rustc ../main.rs
 ```
 
-## Build HelloWorld in _Fortran_
-To build the Rust project enter into `HelloWorld_Fortran` folder using:
+## Build HelloWorld in _FORTRAN_
+To build the FORTRAN project enter into `HelloWorld_Fortran` folder using:
 ```shell
 $ cd HelloWorld_Fortran
 ```
