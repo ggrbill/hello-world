@@ -7,3 +7,4 @@ class Printer():
         for i in range( int( self._times ) ):
             print ("Hello, ", self._who, " !!!")
         print("")
+        print("")
